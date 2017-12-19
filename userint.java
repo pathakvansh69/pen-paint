@@ -50,6 +50,13 @@ public class userint extends JFrame{
 		strokebut=makeMeColorButtons("C:/Java48/Stroke.png",5,true);
 		fillbut=makeMeColorButtons("C:/Java48/Fill.png",6,false);
 		
+		brushbut.setToolTipText("Brush");
+		linebut.setToolTipText("Line");
+		ellibut.setToolTipText("Ellipse");
+		rectbut.setToolTipText("Rectangle");
+		strokebut.setToolTipText("stroke Color");
+		fillbut.setToolTipText("Fill Color"); 
+		
 		thebox.add(brushbut);
 		thebox.add(ellibut);
 		thebox.add(linebut);
