@@ -1,2 +1,2 @@
 # pen-paint
-java project aimed to achieve similarity with ms-paint
+java project uses swings and awt api to draw shapes and objects
